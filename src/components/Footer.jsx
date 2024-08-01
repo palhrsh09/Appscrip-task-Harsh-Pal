@@ -68,7 +68,7 @@ const Footer = () => {
               <div className="mb-8">
                 <h3 className="text-lg font-bold mb-4">CURRENCY</h3>
                 <div className="flex items-center">
-                  <Image src="/USA.png" alt="USD" width={20} height={15} />
+                  <Image src="/USA.png" alt="USA" width={20} height={15} />
                   <span className="ml-2">USD</span>
                 </div>
               </div>
@@ -87,9 +87,9 @@ const Footer = () => {
     <div className='flex flex-col'>
     <div className="mb-8">
     <h3 className="text-lg font-bold mb-4">FOLLOW US</h3>
-    <div className="flex flex-wrap gap-2">
+    <div className="flex flex-wrap gap-2 ">
       {[{ icon: <FaInstagram /> }, { icon: <FaLinkedin /> }].map((item, index) => (
-        <div key={index} className="flex items-center">
+        <div key={index} className="flex items-center border rounded-[100px]">
           {item.icon}
         </div>
       ))}
